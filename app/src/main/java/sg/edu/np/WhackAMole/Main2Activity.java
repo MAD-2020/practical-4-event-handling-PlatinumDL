@@ -25,6 +25,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
     private TextView Score;
     private List<Button> ButtonList = new ArrayList<>();
     int count = 0;
+    String debug = "debug";
     CountDownTimer myCountDown;
     private long timeleft = 10000;
 
